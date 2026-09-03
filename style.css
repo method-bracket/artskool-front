@@ -8,6 +8,7 @@
     }
 
     header {
+        height: 55px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -15,7 +16,8 @@
     }
 
     header .logo {
-        margin: 15px 0 11px 12px;
+        transform: translateY(4px);
+        margin-left: 12px;
         font-family: Josefin Sans;
         font-size: xx-large;
         color: white;
@@ -25,8 +27,13 @@
         user-select: none;
     }
 
-    .dropdown-menu {
+    .header-right {
+        display: flex;
         height: stretch;
+    }
+
+    .dropdown-menu {
+        height: inherit;
     }
 
     header .dropdown-button {
@@ -59,6 +66,12 @@
         width: stretch;
     }
 
+    .dropdown-notification {
+        background-color: lightslategray;
+        padding: 15px 0;
+        text-align: center;
+    }
+
     .dropdown-link {
         background-color: lightslategray;
         padding: 15px 0;
@@ -72,5 +85,13 @@
 
     .dropdown-link a {
         text-decoration: none;
+    }
+
+    .square-svg-button {
+        display: flex;
+        align-items: center;
+    }
+    .square-svg-button img {
+        height: 70%;
     }
 }
