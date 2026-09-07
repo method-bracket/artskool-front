@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Artskool</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Liter&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header class="margin-bottom-big">
+        <a href="index.html" class="logo">
             Artskool
-        </div>
+        </a>
 
         <div class="header-right">
             <div class="dropdown-menu">
@@ -55,15 +55,103 @@
         </div>
     </header>
     <main>
-        <div class="event-info">
-            The event begins in
-            <div class="event-clock">
-                <h1>23:58:59</h1>
+        <div class="info width-75 margin-bottom-big">
+            <div class="site-info">
+                <div class="site-info-question"><h1>What is Artskool?</h1></div>
+                <div class="site-info-description">
+                    <p>
+                        Artskool is a global community of artists and teachers, focused on collectively improving their art.
+                    </p>
+                </div>
+            </div>
+
+            <div class="event-info">
+                <div class="event-title" id="event-subject"><h1>Event title</h1></div>
+                <div class="event-date" id="event-date-time-range">From today</div>
+                <div class="event-description" id="event-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                The event begins in
+                <div class="event-clock" id="event-countdown">
+                    <h1 style="font-size: 4rem;">23:58:59</h1>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="general-main-box width-75">
+            <h2 id="previous-event-winners-header">
+                Winners of Previous Event Title
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="winning-images-container margin-top-medium">
+                <div class="winning-image-container">
+                    <div class="winning-image-space">
+                        <div class="winning-image">
+                            <a href="#">
+                                <img src="uploads/img/placeholder/r1.jpg" />
+                            </a>
+                        </div>
+
+                        <div class="winning-image-like-button">
+                            <img src="svg/heart-svgrepo-com.svg" />
+                        </div>
+                    </div>
+
+                    <a href="#">by User 1</a>
+                    <a href="#">See the full artwork</a>
+                </div>
+
+                <div class="winning-image-container">
+                    <div class="winning-image-space">
+                        <div class="winning-image">
+                            <a href="#">
+                                <img src="uploads/img/placeholder/r2.jpg" />
+                            </a>
+                        </div>
+                        
+                        <div class="winning-image-like-button">
+                            <img src="svg/heart-svgrepo-com.svg" />
+                        </div>
+                    </div>
+                    
+                    <a href="#">by User 1</a>
+                    <a href="#">See the full artwork</a>
+                </div>
+
+                <div class="winning-image-container">
+                    <div class="winning-image-space">
+                        <div class="winning-image">
+                            <a href="#">
+                                <img src="uploads/img/placeholder/r3.jpg" />
+                            </a>
+                        </div>
+
+                        <div class="winning-image-like-button">
+                            <img src="svg/heart-svgrepo-com.svg" />
+                        </div>
+                    </div>
+
+                    <a href="#">by User 1</a>
+                    <a href="#">See the full artwork</a>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-
+        <div class="general-main-box">
+            <div class="footer-info">
+                <div class="footer-faqs">
+                    <h3>FAQs</h3>
+                    <a href="#">What is Artskool?</a>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    E-mail: Lorem ipsum
+                </div>
+                Artskool
+            </div>
+        </div>
     </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
