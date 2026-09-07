@@ -188,7 +188,20 @@
         background-color: var(--secondary-background-color);
     }
 
+    .winning-image-like-button {
+        display: flex;
+        justify-content: right;
+        transform: translateY(-78px);
+    }
+
+    .winning-image-like-button img {
+        position: fixed;
+        width: 70px;
+        height: 70px;
+    }
+
     .winning-image-space {
+        height: 500px;
         transition: all 0.1s ease;
     }
 
@@ -198,7 +211,7 @@
         transform: scale(1.02);
     }
 
-    .winning-image-container img {
+    .winning-image img {
         height: 500px;
         width: 100%;
         object-fit: cover;
